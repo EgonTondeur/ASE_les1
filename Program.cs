@@ -422,25 +422,21 @@
 // }
 
 
-// Welkomstbericht
+
 Console.WriteLine("Welcome to the Clothing Store!");
 
-// Aantal broeken
 Console.WriteLine("Enter the number of trousers purchased: ");
 int trousers = int.Parse(Console.ReadLine());
 
-// Aantal T-shirts
 Console.WriteLine("Enter the number of T-shirts purchased: ");
 int tShirts = int.Parse(Console.ReadLine());
 
-// Aantal vesten
 Console.WriteLine("Enter the number of vests purchased: ");
 int vests = int.Parse(Console.ReadLine());
 
-// Toon het totaalbedrag
+
 Console.WriteLine("Total Payable Amount: " + total_price(trousers, tShirts, vests));
 
-// Functie om de totaalprijs te berekenen
 double total_price(int trousers, int tShirts, int vests) {
     double trouserPrice = 70.5;
     double tShirtPrice = 20.89;
